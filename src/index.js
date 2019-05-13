@@ -15,6 +15,7 @@ const app = dva({
 app.model(require('./models/count').default);
 app.model(require('./models/todos').default);
 app.model(require('./models/menus').default);
+app.model(require('./models/todolist').default);
 
 // 4. Router
 app.router(require('./router').default);
